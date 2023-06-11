@@ -46,7 +46,7 @@
                   <input type="text" class="form-control" id="name" name="name" value="<?= strtoupper($request->name) ?>" required>
                </div>
                <div class="mb-3">
-                  <label for="date" class="form-label">Pemilik/ Agen</label>
+                  <label for="date" class="form-label">Tanggal Pengisian</label>
                   <input type="date" class="form-control" id="date" name="date" value="<?= $request->date ?>" required>
                </div>
                <div class="mb-3">
